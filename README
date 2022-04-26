@@ -1,0 +1,19 @@
+Grammar: https://docs.google.com/document/d/1Erp0XG5504mn72R7AeTcFFkxGE6aVbk2hgEeSSHbGMo/edit?usp=sharing
+Presentation: https://www.canva.com/design/DAE-BvbSe8g/2O1eBXme-dI9voDEAEkpTQ/view?utm_content=DAE-BvbSe8g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+Program Starting:
+- Interactive Shell Mode
+    - python3 ./translator.py
+- Basic calling in same directory
+    - python3 ./translator.py (file path to read) (file path to write)
+- Debug Mode
+    - python3 ./translator.py (file path to read) (file path to write) dbOn
+- Command Line Args
+    - python3 ./translator.py (file path to read) (file path to write) (space seperated command line arguments)
+    - CMD args with debug mode
+        - python3 ./translator.py (file path to read) (file path to write) dbOn (space seperated command line arguments)
+    - Accessing command line args
+        - cmdArgs       % Base command line args array
+        - len(cmdArgs)  % Amount of command line args
+        - cmdArgs[0]    % Accessing first command line arg from list (index 0)
+
